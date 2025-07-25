@@ -3,7 +3,7 @@ const cors = require("cors");
 const app = express();
 
 app.use(cors({
-	origin: '*', // or set to your frontend domain
+	origin: 'https://movie-5oz5.vercel.app', // or set to your frontend domain
   }));
 app.use(express.json());
 const data = {
